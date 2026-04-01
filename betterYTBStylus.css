@@ -909,4 +909,8 @@ ytd-watch-flexy[split-scroll][fixed-default-panels] #donation-shelf.ytd-watch-fl
 ytd-donation-shelf-renderer {
     border: 0px;
 }
+
+div.style-scope.ytd-watch-flexy#primary-inner {
+    padding-right: calc( var(--primary-column-ui-element-padding-lr) + 10px);
+}
 /*******************/
