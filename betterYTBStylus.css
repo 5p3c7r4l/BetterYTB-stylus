@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           www.youtube.com/watch
 @namespace      github.com/openstyles/stylus
-@version        1.3.0
+@version        1.3.1
 @description    Tries to be closer to the older design while adding a few new stuff
 @author         5p3c7r4l - MechE
 ==/UserStyle== */
@@ -493,6 +493,9 @@ ytd-thumbnail[size="medium"] a.ytd-thumbnail, ytd-thumbnail[size="medium"]::befo
 /// SHORTS /////
 ///////////////
 */
+grid-shelf-view-model.ytd-item-section-renderer {
+    display: var(--shorts-visible) !important;
+}
 
 .shortsLockupViewModelHostThumbnailParentContainerRounded {
   border-radius: 4px;
